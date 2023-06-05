@@ -1,0 +1,742 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Montserrat', sans-serif;
+}
+
+.navv{
+height: 100px;
+ margin-left: 0px;
+ margin-top: 0px;
+ border-radius: 0px;
+}
+
+.grp{
+ height: 93px;
+  width: 100px;
+  margin-left: 1px;
+  margin-top: 24px;
+  border-radius: 0px;
+}
+
+#links{
+ font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#home{
+  height: 20px;
+   border-radius: nullpx;
+  color: #7C0B0B;
+}
+ 
+#My{
+background-color: #7C0B0B;
+color: #FFFFFF;
+ border-radius: 10px;
+ 
+}
+#hero{
+background-image: url(./Images/Rectangle\ 1.png);
+background-repeat: none;
+background-position: center;
+background-size: cover;
+width: 100%;
+height: calc(100vh - 100px);
+ }
+
+#join{
+ font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  width: 388px;
+  height: 74px;
+   margin-left: calc(50% - 396px/2 + 7px)
+}
+
+.match{
+ background-color:#FFFFFF; ;
+width: 147px;
+  height: 40px;
+  border-radius: 10px;
+   align-items: center;
+   padding: 10px;
+   gap: 10px;
+   margin-left: 20px;
+}
+
+.match h3{
+ font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  width: 127px;
+   height: 20px;
+   color: #7C0B0B;
+   height: 20px;
+ text-align: center;
+
+}
+
+.con{
+  border:  1px solid rgba(124, 11, 11, 0.4);
+  width: 587px;
+    height: 651px;
+    
+   
+}
+
+.find{
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.find h3{
+  font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7C0B0B;
+}
+
+.find p{
+  font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7C0B0B;
+}
+
+.fd{
+  margin-top: 93px;
+}
+
+form{
+  padding-left: 40px;
+}
+
+form label{
+  font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 16px;
+    padding-top: 24px;
+}
+
+ #gen option{
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(124, 11, 11, 0.4);
+}
+
+#gen{
+  width: 463px;
+    height: 42px;
+    border: 1px solid rgba(124, 11, 11, 0.3);
+    font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: rgba(124, 11, 11, 0.4);
+}
+
+form input{
+  height: 42px;
+    width: 463px;
+    padding-left: 9px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border: 1px solid rgba(124, 11, 11, 0.3);
+}
+
+input::placeholder{
+  color: rgba(124, 11, 11, 0.4);
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+form button{
+    padding: 10px;
+    margin-top: 21px;
+    border: none;
+    border-radius: 10px;
+    width: 96px;
+      height: 40px;
+      background-color: #7C0B0B;
+      color: #FFFFFF;
+      margin-left: 200px;
+}
+
+.about{
+  text-align: center;
+  align-items: center;
+  padding-top: 124px;
+}
+
+.about p{
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    align-items: center;
+      color: #000000;
+      padding-top: 17px;
+}
+
+.about h3{
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+   text-align: center; 
+   align-items: center;
+   color: #000000;
+}
+.works h3 {
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 124px;
+    color: #000000;
+}
+.workss{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.workss div{
+  border: 1px solid #7C0B0B;
+    border-radius: 30px;
+    width: 366px;
+      height: 328px;
+      margin-top: 43px;
+      text-align: center;
+}
+.workss img{
+  margin-top: 49px;
+  margin-bottom: 20px;
+}
+
+.workss h5{
+  font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    
+}
+.workss p{
+  font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    height: 120px;
+    text-align: justify;
+    padding: 37px;
+    
+}
+
+.most h3 {
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+  text-align: center;
+  margin-top: 124px;
+  color: #000000;
+}
+
+.mosts{
+  display: flex;
+  justify-content: space-around;
+}
+
+.mosts div{
+  width: 267px;
+    height: 198px;
+    background-color: #7C0B0B;
+    border-radius: 30px;
+    margin-top: 61px;
+}
+
+.mosts img{
+  padding-top: 38px;
+  padding-left: 103px;
+}
+
+.mosts h5{
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.mosts p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 13px;
+}
+
+.mostss{
+  display: flex;
+  justify-content: space-around;
+}
+
+.mostss div{
+  background-color: #7C0B0B;
+    border-radius: 30px;
+    margin-top: 75px;
+    width: 267px;
+      height: 198px;
+      
+  }
+
+    .mostss img {
+      padding-top: 38px;
+      padding-left: 103px;
+    }
+
+        .mostss h5 {
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 20px;
+          color: #FFFFFF;
+          text-align: center;
+          padding-top: 13px;
+        }
+.mostss p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 13px;
+}
+
+button{
+    
+color: #FFFFFF;
+font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+}
+
+.view button{
+  width: 83px;
+  height: 40px;
+margin-top: 58px;
+margin-left: 678px;
+border-radius: 10px;
+border: none;
+align-content: center;
+background-color: #7C0B0B;
+}
+
+.test h3{
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+  text-align: center;
+  color: #000000;
+  margin-top: 124px;
+}
+
+.test p{
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 12px;
+    text-align: center;
+    color: #7C0B0B;
+}
+
+.tests{
+  display: flex;
+    justify-content: space-around;
+  
+
+  }
+
+  .tests div{
+    background-color: rgba(124, 11, 11, 0.4);
+      border-radius: 30px;
+      width: 366px;
+        height: 328px;
+        margin-top: 101px;
+      
+  }
+
+    
+
+
+  .tests p{
+    font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+    padding-top: 68px;
+      color: #000000;
+      text-align: justify;
+      padding-left: 37px;
+      padding-right: 37px;
+  }
+
+  .tests img{
+    padding-left: 43px;
+    padding-top: 32px;
+    display: inline-block;
+   
+  
+  }
+
+  .tests h5{
+    font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      color: #000000;
+      /* padding-top: 62px; */
+      padding-left: 23px;
+      display: inline-block;
+  }
+   .word{
+text-align: center;
+padding-top: 173px;
+  }
+  .word h1{
+    font-family: Montserrat;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 37px;
+      letter-spacing: 0em;
+  }
+  .word p{
+    font-family: Montserrat;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 0em;
+      color: #7C0B0B;
+      padding-top: 12px;
+  }
+.merge{
+text-align: center;
+margin-top: 53px;
+}
+.code{
+  height: 54px;
+    width: 560px;
+    left: 445px;
+    top: 4178px;
+    border-radius: 30px;
+    padding-left: 12px;
+    border: 2px solid#7C0B0B ;
+}
+.pay{
+  height: 54px;
+    width: 164px;
+    left: 841px;
+    top: 4178px;
+    border-radius: 30px;
+    background-color: #7C0B0B;
+    border: none;
+    margin-left: -96px;
+}
+
+
+.legin{
+background-color: #7C0B0B;
+  height: 407px;
+  width: 1440px;
+  top: 4367px;
+  border-radius: 0px;
+  margin-top: 60px;
+  padding-top: 107px;
+  
+}
+.legin .get{
+width: 695px;
+  height: 112px;
+  background-color:  #FFFFFF;
+  margin-left: 100px;
+  border-radius: 30px;
+}
+.get img{
+  margin-top: 11px;
+  margin-left: 51px;
+}
+.get h5{
+  font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: -30px;
+    margin-left: 47px;
+}
+  .atm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .atm button{
+    align-items: center;
+      gap: 10px;
+      width: 144.32px;
+      height: 40px;
+    margin-top: -70px;
+    margin-right: 50px;
+      background: #7C0B0B;
+      border-radius: 10px;
+      padding-right: 30px;
+      font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        border: none;
+  }
+   .logo {
+    margin-left: 129px;
+    margin-top: 50px;
+    display: flex;
+    gap: 26px;
+   }
+   .whatev{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 99px;
+
+   }
+   .las p{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+   }
+   .las a{
+    text-decoration: none;
+    color: #FFFFFF;
+   }
+   .mobile-las{
+    display: none;
+   }
+   
+@media(max-width:500px){
+
+  #txt{
+    align-items: center;
+    line-height: 2px;
+    width: 300px;
+  }
+
+#join{
+  font-size: large;
+  align-items: center;
+  text-align: center;
+  width: fit-content;
+  margin-left: 20px;
+}
+.match{
+  width: 150px;
+  align-items: center;
+  margin-left: 70px;
+
+}
+.legin .get{
+  width: 250px;
+}
+.fd{
+  flex-direction: column-reverse;
+}
+.con {
+  width: 100%;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+.fd img{
+width: 100%;
+margin-top: -50px;
+}
+.F1 input{
+  width: 100%;
+  margin-left: -20px;
+}
+.F1 #gen {
+  width: 100%;
+  margin-left: -20px;
+}
+.F1 button{
+ margin-left: -5px;
+ margin-left: 100px;
+}
+.workss{
+flex-direction: column;
+padding-left: 10px;
+
+}
+.workss div{
+  width: fit-content;
+  padding-bottom: 100px;
+  height: fit-content;
+  margin-right: 10px;
+}
+
+ .mosts {
+   flex-direction: column;
+   padding-left: 10px;
+   align-items: center;
+ }
+ .mostss {
+   flex-direction: column;
+   padding-left: 10px;
+   align-items: center;
+ }
+ .view button{
+  margin-left: 40%;
+  align-items: center;
+  margin-bottom: 80px;
+  /* margin-right: 50px; */
+ }
+ .test{
+  margin-top: -150px;
+ }
+
+ .tests {
+   flex-direction: column;
+   padding-left: 10px;
+   align-items: center;
+  margin-top: -80px;
+ }
+ .tests div{
+  width: fit-content;
+  padding-bottom: 40px;
+    height: fit-content;
+    margin-right: 10px;
+ }
+ .word{
+  margin-top: -100px;
+ }
+ .word h1{
+  font-size: x-large;
+ }
+ .word p{
+  text-align: center;
+  width: 90%;
+  margin-left: 15px;
+ }
+ .merge input{
+  width: 90%;
+ }
+ .merge button{
+  margin-top: 20px;
+  align-items: center;
+  margin-left: 30px;
+ }
+ .legin{
+  width: 100%;
+  height: 100%;
+ }
+ .whatev{
+ display: flex;
+ flex-direction: column;
+ }
+ .legin .get{
+  width: 300px;
+  margin-top: -80px;
+  margin-left: 7%;
+  
+ }
+ .legin .get button{
+  margin-right: 3%;
+  width: 100px;
+  padding-left: 20px;
+
+ }
+    .las{
+      display: none;
+    }
+
+     .mobile-las{
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+    }
+    .mobile-las a{
+      text-decoration: none;
+      color: #FFFFFF;
+      align-items: center;
+      
+    
+    }
+      .mobile{
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+        margin-top: 50px;
+       
+
+      }
+    .logo {
+      margin-top: 100px;
+      align-items: center;
+      justify-content: center;
+      margin-right: 30%;
+    
+    }
+    .legin{
+      height: 500px;
+    }
+  }
